@@ -1,0 +1,84 @@
+body{
+  text-align: center;
+  background-color: #313231;
+  font-family: 'Alata', sans-serif;;
+  color: #1C5926;
+}
+.gameName{
+	margin-top: 40px;
+}
+.button{
+  width: 70px;
+  height: 70px;
+}
+#chooseLevel{
+	color: white;
+}
+.grid{
+  display: grid;
+  margin: 0 auto;
+  height: auto;
+  width: 400px;
+  grid-template-columns:repeat(5,1fr);
+  grid-gap: 10px;
+}
+.cssProp{
+  visibility: hidden;
+}
+#difficultyLevel{
+  height: 30px;
+  width: 110px;
+  display: block;
+  margin: 8px auto;
+  background-color: white;
+}
+.button{
+  border-radius: 10px;
+}
+.myButton {
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#026211;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#026211;
+	font-family: 'Alata', sans-serif;;
+	font-size:17px;
+	padding:7px 27px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin-top: 60px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+ .mysecondButton {
+	box-shadow: 0px 10px 14px -7px #026211;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#026211;
+	font-family:'Alata', sans-serif;;
+	font-size:16px;
+	font-weight:bold;
+	padding:11px 28px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #026211;
+}
+.mysecondButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.mysecondButton:active {
+	position:relative;
+	top:1px;
+}

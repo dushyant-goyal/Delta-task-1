@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Delta task-1</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="gameName">SPEED TEST</h1>
+
+    <div class="selectingDifficultyLevel">
+      <label for="difficultyLevel" id="chooseLevel">Choose difficulty level</label>
+      <select id="difficultyLevel">
+        <option value="0">Easy</option>
+        <option value="1">Medium</option>
+        <option value="2">Difficult</option>
+      </select>
+      <button class="myButton"onclick="levelfunction()">Select Level</button>
+    </div>
+
+
+    <div class="gameBar">
+      <h3 id="userTimeHeader">Your Time: <span id="userTime">0.00</span></h3>
+      <div class="bestTimeDivision">
+        <h3 class="level">Easy Level Best Time: <span id="s0LevelBestTime">0.00</span></h3>
+        <h3 class="level">Medium Level Best Time: <span id="s1LevelBestTime">0.00</span></h3>
+        <h3 class="level">Difficult Level Best Time: <span id="s2LevelBestTime">0.00</span></h3>
+      </div>
+      <button class="GameStartingButton cssProp mysecondButton" onclick="startTheGame()">Start Game</button>
+    </div>
+
+
+    <div class="grid">
+
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
